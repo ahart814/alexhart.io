@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600&family=Roboto+Slab:wght@300;400;500;700&display=swap');
-@import url('..bootstrap/scss/bootstrap');
 
-$body-bg: #000;
-$body-color: #fff;
-
-$theme-colors: (
-  "primary": #000000,
-  "danger": #ff4136
-);
 
 body {
 height: 100vh;
