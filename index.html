@@ -3,19 +3,50 @@
 <head>
     <meta charset="utf-8">
     <title>Page Title</title>
-    <link rel="stylesheet" href="css/stylesheet.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
  </head>  
+
+
 <body>
-<div class="container homepage">
-  		<div class="col-5">
-  	<p>Hi!</p>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark ah_nav">
+    <button class="navbar-toggler ah_navtoggle" type="button" data-toggle="collapse" data-target="#navCollapse" aria-controls="navCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">XX</span>
+    </button>
+
+    <div class="collapse navbar-collapse ah_navcollapse" id="navCollapse">
+      <ul class="navbar-nav nav-pills ah_navlist">
+        <li class="nav-item ah_navhome">
+          <a class="nav-link active" href="/index">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item dropdown ah_navportfolio">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+          <div class="dropdown-menu ah_dropdown">
+            <a class="dropdown-item" href="#">Strategy</a>
+            <a class="dropdown-item" href="#">Design</a>
+            <a class="dropdown-item" href="#">More fun</a>
+          </div>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="/contact">Contact</a>
+        </li>
+        <span class="navbar-text">
+          Social media icons
+        </span>
+      </ul>
+    </div>
+  </nav>
+  <div class="container-fluid outer-container">
+
   </div>
-  <div class="col-7">
-    <img src="images/mcarey.jpg" alt="Mariah Carey">
-</div></div>
 </body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+<script src="dist/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
 </html> 
